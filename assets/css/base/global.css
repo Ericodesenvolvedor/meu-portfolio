@@ -1,0 +1,83 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    /* Background / Link-bg */
+    --color-01: #0C151D;
+    
+    /* Link-bg */
+    --color-02: #171F26;
+    
+    /* Borda */
+    --color-03: #3E64AA;  
+    
+    /* Cor destaque */
+    --color-04: #FFE071;
+    
+    /* Cor de textos */
+    --text-color-01: #A3ABB2;
+    --text-color-02: #F1F2F4;
+    --text-color-03: #3D3D3D;
+
+    /* Fontes - Tamanho */
+    --fs-01: 2.2rem;
+    --fs-02: 2.4rem;
+    --fs-03: 4.6rem; /* Nome */ 
+    --fs-04: 2rem;
+    --fs-05: 1.6rem;
+    
+    /* Fontes - Peso */
+    --fw-01: 400;
+    --fw-02: 500;
+    
+    /* Fontes - Familia */
+    --ff-01: 'Poppins', sans-serif;
+
+    /* Fontes - Line height */
+    --lh-01: 3.3rem;
+    --lh-02: 6.9rem; /* Nome */
+    --lh-03: 2.1rem;
+    
+    font-size: 62.5%;
+}
+
+body {
+    background-color: var(--color-01);
+    font-size: 1.6rem;
+    font-family: var(--ff-01);
+}
+
+.page {
+    padding: 4rem 1rem;
+    max-width: 760px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+@media screen and (max-width: 768px) {
+    :root {
+        --fs-01: 1.4rem;
+        --fs-02: 1.6rem;
+        --fs-03: 3.2rem; /* Nome */ 
+        --fs-04: 1,8rem;
+        --fs-05: 1.6rem;
+
+        --lh-01: 2.1rem;
+        --lh-02: 2.4rem; /* Nome */
+        --lh-03: 2.1rem;
+    }
+
+    .page {
+        max-width: 425px;
+    }
+}

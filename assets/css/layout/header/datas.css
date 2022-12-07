@@ -1,0 +1,14 @@
+.datas {
+    max-width: 630px;
+    margin: 0 auto;
+}
+
+.datas-items {
+    display: flex;
+    padding: 2rem 3rem;
+    gap: 4.8rem;
+}
+
+.datas-items li {
+    text-align: center;
+}

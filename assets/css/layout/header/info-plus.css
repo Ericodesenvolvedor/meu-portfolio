@@ -1,0 +1,26 @@
+.info-plus {
+    max-width: 620px;
+    margin: 0 auto;
+
+    display: flex;
+    align-items: center;
+    gap: 3.8rem;
+}
+
+.info-plus a {
+    padding: 2.4rem 4.2rem;
+    border-radius: 1rem;
+}
+
+.info-plus a:nth-of-type(1) {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    
+    background-color: var(--color-04);
+    color: var(--text-color-03);
+}
+
+.info-plus a:nth-of-type(2) {
+    background-color: var(--color-02);
+}

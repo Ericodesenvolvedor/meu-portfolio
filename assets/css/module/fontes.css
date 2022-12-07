@@ -1,0 +1,46 @@
+.fonte-regular {
+    font-size: var(--fs-01);
+    font-weight: var(--fw-02);
+    line-height: var(--lh-01);
+    color:  var(--text-color-01);
+}
+
+.fonte-nome {
+    font-size: var(--fs-03);
+    font-weight: var(--fw-02);
+    line-height: var(--lh-02);
+    color:  var(--text-color-02); 
+}
+
+.fonte-digit {
+    font-size: var(--fs-02);
+    font-weight: var(--fw-02);
+    line-height: var(--lh-02);
+    color:  var(--text-color-01); 
+}
+
+.fonte-projeto {
+    font-size: var(--fs-04);
+    font-weight: var(--fw-02);
+    line-height: var(--lh-01);
+    color:  var(--text-color-02); 
+}
+
+.fonte-projeto-descricao {
+    font-size: var(--fs-05);
+    font-weight: var(--fw-01);
+    line-height: var(--lh-03);
+    color:  var(--text-color-01); 
+}
+
+@media screen and (max-width: 768px) {
+    .fonte-projeto {
+        font-size: var(--fs-04);
+        line-height: var(--lh-01);
+    }
+    
+    .fonte-projeto-descricao {
+        font-size: var(--fs-01);
+        line-height: var(--lh-01);
+    }
+}
