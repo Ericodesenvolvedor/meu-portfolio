@@ -6,6 +6,8 @@
 
 O meu portfolio foi construido pensando no layout do instagram na parte de perfil. Aqui eu gostaria de compartilhar algum de meus projetos e aos poucos adaptando ele.
 
+[Acesse o site por aqui](https://ericodesenvolvedor.github.io/meu-portfolio/)
+
 ### Ferramentas utilizadas
 
 - HTML
