@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="./assets/css/base/global.css" />
     <!-- COMPONENTES -->
     <link rel="stylesheet" href="./assets/css/module/fontes.css" />
+    <link rel="stylesheet" href="./assets/css/module/grid.css" />
     <!-- LAYOUT -->
     <link rel="stylesheet" href="./assets/css/layout/header/header.css" />
     <link rel="stylesheet" href="./assets/css/layout/header/profile-info.css" />
@@ -19,8 +20,10 @@
     <link rel="stylesheet" href="./assets/css/layout/header/info-plus.css" />
     <link rel="stylesheet" href="./assets/css/layout/main/main.css" />
     <link rel="stylesheet" href="./assets/css/layout/main/navigation.css" />
-    <link rel="stylesheet" href="./assets/css/layout/main/projects.css" />
+    <link rel="stylesheet" href="./assets/css/layout/main/skills.css" />
     <link rel="stylesheet" href="./assets/css/layout/footer.css" />
+    <!-- External -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
     <script src="https://unpkg.com/phosphor-icons" defer></script>
 
     <style>
@@ -100,7 +103,40 @@
             </nav>
 
             <section class="skills">
-                <h2 class="fonte-regular">Em produção...</h2>
+                <ul class="skills-items grid">
+                    <li class="skill-item">
+                        <div class="skill-header">
+                            <i class="devicon-html5-plain"></i>
+                        </div>
+
+                        <div class="skill-body">
+                            <h3 class="fonte-projeto">Html</h3>
+                            <p class="fonte-projeto-descricao">Tenho uma boa noção de html e sempre estou buscando aprimorar a estrutura do layout e sua acessibilidade.</p>
+                        </div>
+                    </li>
+
+                    <li class="skill-item">
+                        <div class="skill-header">
+                            <i class="devicon-css3-plain"></i>
+                        </div>
+
+                        <div class="skill-body">
+                            <h3 class="fonte-projeto">Css</h3>
+                            <p class="fonte-projeto-descricao">Tenho uma boa base sobre css e estou aprimorando essa hard skill, no momento aprendendo mais sobre melhores práticas para responsivo.</p>
+                        </div>
+                    </li>
+                    
+                    <li class="skill-item">
+                        <div class="skill-header">
+                            <i class="devicon-javascript-plain"></i>
+                        </div>
+
+                        <div class="skill-body">
+                            <h3 class="fonte-projeto">Javascript</h3>
+                            <p class="fonte-projeto-descricao">Tenho uma base sólida no Javascript, no momento estou focado em apenas projetos com html e css, mas logo mais farei algo mais interativo.</p>
+                        </div>
+                    </li>
+                </ul>
             </section>
         </main>
 

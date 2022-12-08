@@ -1,9 +1,9 @@
-.projects-items {
+/* .projects-items {
     width: 100%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 3.8rem;
-}
+} */
 
 .projects-items .project-item {
     width: 100%;
@@ -48,10 +48,4 @@
     border-radius: 50%;
     background-color: var(--color-04);
     color: var(--color-01);
-}
-
-@media screen and (max-width: 768px) {
-    .projects-items {
-        grid-template-columns: 1fr;
-    }
 }

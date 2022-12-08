@@ -1,0 +1,30 @@
+.skills-items .skill-item {
+    width: 100%;
+    background-color: var(--color-02);
+    border-radius: 1.5rem;
+    padding: 1.8rem 2.4rem;
+    transition: 500ms all;
+}
+
+.skills-items .skill-item:hover {
+    transform: scale(1.1);
+}
+
+.skill-item .skill-header {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 4.8rem;
+}
+
+.skill-item .skill-header i {
+    text-align: center;
+    font-size: 8rem;
+    color: var(--text-color-02);
+}
+
+@media screen and (max-width: 768px) {
+    .skill-item .skill-header i {
+        font-size: 6rem;
+    }
+}
