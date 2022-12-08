@@ -1,0 +1,7 @@
+.transition-transform {
+    transition: 500ms all;
+}
+
+.transition-transform:hover {
+    transform: scale(1.1);
+}
