@@ -12,3 +12,9 @@
 .datas-items li {
     text-align: center;
 }
+
+@media screen and (max-width: 768px) {
+    .datas-items {
+        padding: 2rem 0;
+    }
+}

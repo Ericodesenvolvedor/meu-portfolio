@@ -24,3 +24,10 @@
 .info-plus a:nth-of-type(2) {
     background-color: var(--color-02);
 }
+
+@media screen and (max-width: 768px) {
+    .info-plus a {
+        padding: 2.4rem;
+        border-radius: 1rem;
+    }
+}
