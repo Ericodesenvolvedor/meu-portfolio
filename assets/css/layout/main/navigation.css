@@ -15,10 +15,10 @@
     flex: 1;
     text-align: center;
     padding: 2.4rem 0;
+    border-radius: 1rem;
 }
 
 .navigation ul li:nth-child(1) {
-    border-radius: 1rem;
     background: var(--color-01);
 }
 
