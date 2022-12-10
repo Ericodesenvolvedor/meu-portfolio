@@ -13,6 +13,6 @@ const countedProjects = () => {
 
 const countedSkills = () => {
     const getLengthSkills = document.querySelectorAll("[data-skills]").length;
-    const getNumberOfProjects = document.querySelector('[data-datas="length"]')
-    getNumberOfProjects.innerText = getLengthSkills;
+    const getNumberOfSkills = document.querySelector('[data-datas="length"]')
+    getNumberOfSkills.innerText = getLengthSkills;
 }
