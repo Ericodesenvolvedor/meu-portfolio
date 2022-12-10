@@ -1,6 +1,6 @@
 export const dataCounter = () => {
     const getLocation = window.location.href;
-    const whichWay = getLocation.includes('index.html') ? countedProjects() : countedSkills();
+    const whichWay = getLocation.includes('skills.html') ? countedSkills() : countedProjects();
 
     return whichWay;
 }
