@@ -1,3 +1,3 @@
-import { countedProjects } from "./countedProjects.js";
+import { dataCounter } from "./dataCounter.js";
 
-countedProjects();
+dataCounter();
